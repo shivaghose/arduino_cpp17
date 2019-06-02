@@ -4,12 +4,12 @@
 
 namespace {
 
-constexpr size_t DELAY = 1000;        // ms
+constexpr size_t DELAY = 1000;      // ms
 constexpr auto BAUD_RATE = 115200;  // scalar
 
 using VAR_TYPE = decltype(Foo::VAR_1_UPDATE);
 
-}  // anonymous namespace
+}  // namespace
 
 Foo::Foo() : _var1{1}, _var2{2} {}
 
