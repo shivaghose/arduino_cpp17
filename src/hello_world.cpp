@@ -5,7 +5,7 @@
 namespace {
 
 constexpr size_t DELAY = 1000;        // ms
-constexpr size_t BAUD_RATE = 115200;  // scalar
+constexpr auto BAUD_RATE = 115200;  // scalar
 
 using VAR_TYPE = decltype(Foo::VAR_1_UPDATE);
 
